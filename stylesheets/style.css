@@ -140,6 +140,7 @@ header {
   background: url(http://i.piccy.info/i9/48f4aa8504dd9763c1e00a28148fa2fe/1508944595/1223/1185355/arrow_left.png);
   border: none;
   cursor: pointer;
+  margin: 0 27px 0 55px;
   align-self: center;
 }
 
@@ -167,6 +168,7 @@ header {
   background: url(http://i.piccy.info/i9/095358fbb2ef76a5e4bb92e1eafbbf32/1508944890/1228/1185355/arrow_right.png);
   border: none;
   cursor: pointer;
+  margin: 0 55px 0 27px;
   align-self: center;
 }
 
@@ -345,35 +347,34 @@ article {
 /* line 226, ../sass/style.scss */
 .inputs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 100px 0 35px 0;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .login {
   background: #e67624;
   border-radius: 5px;
+  width: 470px;
+  margin: 0 20px 0 0;
 }
-/* line 234, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .login h3 {
   color: #fff;
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  margin: 20px 0 25px 30px;
-}
-/* line 241, ../sass/style.scss */
-.login div {
-  display: flex;
-  margin: 0 0 20px 30px;
+  margin: 20px 0 25px 29px;
 }
 /* line 244, ../sass/style.scss */
-.login div input {
-  margin: 0 15px 0 0;
+.login div {
+  display: flex;
+  margin: 0 0 20px 29px;
 }
 /* line 247, ../sass/style.scss */
 .login div input[type="text"] {
-  width: 155px;
+  width: 143px;
   height: 26px;
   border: none;
   outline: none;
@@ -381,10 +382,11 @@ article {
   font-size: 16px;
   color: #4f4f4f;
   padding: 0 0 0 12px;
+  margin-right: 13px;
 }
-/* line 257, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .login div input[type="submit"] {
-  width: 93px;
+  width: 94px;
   height: 28px;
   background: #444444;
   color: #fff;
@@ -394,39 +396,41 @@ article {
   font-weight: 300;
   outline: none;
   cursor: pointer;
+  margin-right: 16px;
 }
-/* line 269, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .login div input[type="submit"]:hover {
   opacity: 0.9;
 }
-/* line 272, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .login div input[type="submit"]:focus {
   opacity: 0.9;
 }
-/* line 275, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .login div input[type="submit"]:active {
   opacity: 0.8;
 }
 
-/* line 280, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .subscribe {
   background: #01d4f3;
   border-radius: 5px;
+  width: 470px;
 }
-/* line 283, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .subscribe h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 26px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  margin: 20px 15px 25px 30px;
+  margin: 20px 0 25px 30px;
 }
-/* line 290, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .subscribe div {
   display: flex;
   margin: 0 0 20px 30px;
 }
-/* line 293, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .subscribe div input[type="text"] {
   width: 264px;
   height: 26px;
@@ -438,7 +442,7 @@ article {
   padding: 0 0 0 12px;
   margin: 0 50px 0 0;
 }
-/* line 304, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .subscribe div input[type="submit"] {
   width: 112px;
   height: 28px;
@@ -450,39 +454,40 @@ article {
   font-weight: 300;
   outline: none;
   cursor: pointer;
+  margin-right: 15px;
 }
-/* line 316, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .subscribe div input[type="submit"]:hover {
   opacity: 0.9;
 }
-/* line 319, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .subscribe div input[type="submit"]:focus {
   opacity: 0.9;
 }
-/* line 322, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .subscribe div input[type="submit"]:active {
   opacity: 0.8;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 footer {
   background: url(http://i.piccy.info/i9/6474f08b9e7d6faac51e8321ce90c91e/1509028835/23045/1185355/footer_background.jpg) top left repeat-y;
   background-size: 100%;
 }
 
-/* line 333, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .footer {
   padding: 40px 130px 55px 130px;
   display: flex;
   justify-content: space-around;
 }
 
-/* line 338, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .about_us_1, .about_us_2 {
   margin: 0 90px 0 0;
   min-width: 110px;
 }
-/* line 341, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .about_us_1 h4, .about_us_2 h4 {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
@@ -490,7 +495,7 @@ footer {
   margin-bottom: 5px;
   font-weight: 200;
 }
-/* line 348, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .about_us_1 ul li, .about_us_2 ul li {
   font-size: 13px;
   font-family: arial;
@@ -499,15 +504,15 @@ footer {
   font-weight: 600;
 }
 
-/* line 356, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 .testimoanials {
   flex-basis: 35%;
 }
-/* line 358, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .testimoanials div {
   display: flex;
 }
-/* line 360, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .testimoanials div button {
   width: 15px;
   height: 15px;
@@ -516,20 +521,20 @@ footer {
   border: none;
   margin: 4px;
 }
-/* line 368, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .testimoanials div button:hover {
   opacity: 0.9;
 }
-/* line 371, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .testimoanials div button:focus {
   opacity: 0.9;
   outline: none;
 }
-/* line 375, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .testimoanials div button:active {
   opacity: 0.8;
 }
-/* line 379, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .testimoanials h4 {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
@@ -537,7 +542,7 @@ footer {
   margin: 0 30px 5px 0;
   font-weight: 200;
 }
-/* line 386, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .testimoanials p {
   font-size: 13px;
   font-family: arial;
@@ -546,11 +551,11 @@ footer {
   font-weight: 600;
 }
 
-/* line 394, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .bottom_logo {
   margin: 0 0 0 30px;
 }
-/* line 396, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .bottom_logo h1 {
   font-size: 118.5px;
   font-style: italic;
@@ -558,9 +563,44 @@ footer {
   cursor: pointer;
   margin: 0 0 40px 0;
 }
-/* line 403, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 .bottom_logo span {
   font-size: 13px;
   font-family: arial;
   color: #fff;
+}
+
+@media all and (max-width: 1350px) {
+  /* line 2, ../sass/media.scss */
+  .header_2 img {
+    margin: 0 0 -50px 20px;
+  }
+
+  /* line 5, ../sass/media.scss */
+  .header_title {
+    margin: 0 50px 0 75px;
+  }
+}
+@media all and (max-width: 1219px) {
+  /* line 10, ../sass/media.scss */
+  .inputs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* line 14, ../sass/media.scss */
+  .login {
+    margin: 0 0 20px 0;
+  }
+}
+@media all and (max-width: 1100px) {
+  /* line 19, ../sass/media.scss */
+  .logo {
+    padding: 0;
+  }
+
+  /* line 22, ../sass/media.scss */
+  .header_2 img {
+    display: none;
+  }
 }
