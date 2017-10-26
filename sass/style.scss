@@ -133,4 +133,39 @@ header {
 		opacity: 0.7;
 	}
 }
+// -------------------------------------------------NAV----------------------------------------------------------------
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 92px 130px 55px 130px;
+	li {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-basis: 25%;
+		a {
+		text-decoration: none;
+		font-size: 26.6px;
+		text-align: center;
+		color: #7b7a7a;
+		font-family: $segoe;
+		font-weight: 300;
+		margin: 25px 0 52px 0;
+		}
+		a:hover{
+			font-weight: 500;
+		}
+		a:focus{
+			font-weight: 500;
+			outline: none;
+		}
+		a:active{
+			opacity: 0.8;
+		}
+	}
+}
+
+
 
