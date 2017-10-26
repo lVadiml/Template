@@ -167,5 +167,160 @@ nav ul {
 	}
 }
 
+// -----------------------------------------------main-------------------------------------------------------------------
 
-
+.ipad {
+	margin: auto;
+	display:flex;
+	align-self: center;
+}
+article {
+	margin: 40px 130px 0 130px;
+}
+.section_1 {
+	margin: 0 55px 100px 55px;
+	h3 {
+		font-size: 38.6px;
+		font-family: $segoe;
+		color: #4f4f4f;
+		font-weight: 300;
+		margin: 0 0 40px 0;
+	}
+	p {
+		color: #818181;
+		font-size: 14px;
+		font-family: $segoe;
+		font-weight: 300;
+		line-height: 2;
+	}
+}
+.section_2 {
+	display: flex;
+	justify-content: space-around;
+	// margin: 0 130px 0 130px;
+}
+.choice {
+	align-self: center;
+	h3 {
+		font-family: $segoe;
+		font-size: 32.6px;
+		color: #4f4f4f;
+		font-weight: 300;
+	}
+	ul {
+		font-family: $univers;
+		font-size: 16px;
+		color: #8a8888;
+		margin: 30px 0 0 0;
+		li {
+			margin: 0 0 20px 0;
+			display: flex;
+			align-items: center;
+		}
+		li:before {
+			content: url(http://i.piccy.info/i9/9195f7b51cb9896604718a3fd71b753f/1509022862/408/1185355/marker_li.png);
+			padding-right: 14px;
+		}
+	}
+}
+.inputs {
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 0 35px 0;
+}
+.login {
+	background: #e67624;
+	border-radius: 5px;
+	h3 {
+		color: #fff;
+		font-size: 28px;
+		font-family: $segoe;
+		font-weight: 200;
+		margin: 20px 0 25px 30px;
+	}
+	div {
+		display: flex;
+		margin: 0 0 20px 30px;
+		input {
+			margin: 0 15px 0 0;
+		}
+		input[type="text"] {
+			width: 155px;
+			height: 26px;
+			border: none;
+			outline: none;
+			font-family: $segoe;
+			font-size: 16px;
+			color: #4f4f4f;
+			padding: 0 0 0 12px;
+		}
+		input[type="submit"] {
+			width: 93px;
+			height: 28px;
+			background: #444444;
+			color: #fff;
+			font-family: $segoe;
+			font-size: 16px;
+			border: none;
+			font-weight: 300;
+			outline: none;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			opacity: 0.9;
+		}
+		input[type="submit"]:focus {
+			opacity: 0.9;
+		}
+		input[type="submit"]:active {
+			opacity: 0.8;
+		}
+	}
+}
+.subscribe {
+	background: #01d4f3;
+	border-radius: 5px;
+	h3 {
+		color: #fff;
+		font-size: 28px;
+		font-family: $segoe;
+		font-weight: 200;
+		margin: 20px 15px 25px 30px;
+	}
+	div {
+		display: flex;
+		margin: 0 0 20px 30px;
+		input[type="text"] {
+			width: 264px;
+			height: 26px;
+			border: none;
+			outline: none;
+			font-family: $segoe;
+			font-size: 16px;
+			color: #4f4f4f;
+			padding: 0 0 0 12px;
+			margin: 0 50px 0 0;
+		}
+		input[type="submit"] {
+			width: 112px;
+			height: 28px;
+			background: #029bb1;
+			color: #abdee5;
+			font-family: $segoe;
+			font-size: 16px;
+			border: none;
+			font-weight: 300;
+			outline: none;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			opacity: 0.9;
+		}
+		input[type="submit"]:focus {
+			opacity: 0.9;
+		}
+		input[type="submit"]:active {
+			opacity: 0.8;
+		}
+	}
+}
