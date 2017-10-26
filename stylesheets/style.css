@@ -1,7 +1,4 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,500,500i,600,700|Nunito+Sans:300,400,400i,600,700");
 /* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,4 +62,175 @@ a img {
 /* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/* line 5, ../sass/style.scss */
+body {
+  cursor: default;
+}
+
+/* line 8, ../sass/style.scss */
+header {
+  background: url(http://i.piccy.info/i9/184396a1cf865d8d7b352ddc8c0fa736/1508938613/477182/1185355/header_background.png) left top no-repeat;
+  background-size: 100%;
+}
+
+/* line 12, ../sass/style.scss */
+.header_1 {
+  display: flex;
+  margin: 0 130px 60px 130px;
+  padding: 60px 0 0 0;
+  color: #c4cbce;
+  justify-content: space-between;
+}
+
+/* line 19, ../sass/style.scss */
+.logo {
+  font-size: 118.5px;
+  font-style: italic;
+  padding: 0 0 0 85px;
+  cursor: pointer;
+}
+
+/* line 25, ../sass/style.scss */
+.top_nav {
+  display: flex;
+  font-size: 22.6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+/* line 30, ../sass/style.scss */
+.top_nav li {
+  padding: 0 50px 0 0;
+}
+/* line 33, ../sass/style.scss */
+.top_nav a {
+  text-decoration: none;
+  color: #c4cbce;
+}
+/* line 37, ../sass/style.scss */
+.top_nav a:hover {
+  opacity: 0.8;
+}
+/* line 40, ../sass/style.scss */
+.top_nav a:focus {
+  opacity: 0.8;
+  outline: none;
+}
+/* line 44, ../sass/style.scss */
+.top_nav a:active {
+  opacity: 0.5;
+}
+
+/* line 48, ../sass/style.scss */
+.header_2 {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 51, ../sass/style.scss */
+.header_2 img {
+  margin: 0 0 -50px 120px;
+}
+
+/* line 55, ../sass/style.scss */
+.arrow_left {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: url(http://i.piccy.info/i9/48f4aa8504dd9763c1e00a28148fa2fe/1508944595/1223/1185355/arrow_left.png);
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+/* line 65, ../sass/style.scss */
+.arrow_left:hover {
+  opacity: 0.8;
+}
+
+/* line 68, ../sass/style.scss */
+.arrow_left:focus {
+  opacity: 0.8;
+  outline: none;
+}
+
+/* line 72, ../sass/style.scss */
+.arrow_left:active {
+  opacity: 0.5;
+}
+
+/* line 75, ../sass/style.scss */
+.arrow_right {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: url(http://i.piccy.info/i9/095358fbb2ef76a5e4bb92e1eafbbf32/1508944890/1228/1185355/arrow_right.png);
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+/* line 85, ../sass/style.scss */
+.arrow_right:hover {
+  opacity: 0.8;
+}
+
+/* line 88, ../sass/style.scss */
+.arrow_right:focus {
+  opacity: 0.8;
+  outline: none;
+}
+
+/* line 92, ../sass/style.scss */
+.arrow_right:active {
+  opacity: 0.5;
+}
+
+/* line 95, ../sass/style.scss */
+.header_title {
+  margin: 0 167px 0 75px;
+  align-self: center;
+}
+/* line 98, ../sass/style.scss */
+.header_title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.3;
+}
+/* line 105, ../sass/style.scss */
+.header_title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 40px;
+}
+/* line 111, ../sass/style.scss */
+.header_title button {
+  margin: 34px 0 53px 0;
+  background: #175b3b;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 4px rgba(24, 28, 25, 0.4);
+  width: 138px;
+  height: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 22.6px;
+  color: #e0eae5;
+}
+/* line 125, ../sass/style.scss */
+.header_title button:hover {
+  box-shadow: 0px 0px 0px 4px rgba(24, 28, 25, 0.8);
+}
+/* line 128, ../sass/style.scss */
+.header_title button:focus {
+  outline: none;
+  opacity: 0.8;
+}
+/* line 132, ../sass/style.scss */
+.header_title button:active {
+  opacity: 0.7;
 }
