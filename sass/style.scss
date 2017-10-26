@@ -324,3 +324,86 @@ article {
 		}
 	}
 }
+// -----------------------------------------------------FOOTER-----------------------------------------------------------
+
+footer {
+	background: url(http://i.piccy.info/i9/6474f08b9e7d6faac51e8321ce90c91e/1509028835/23045/1185355/footer_background.jpg) top left repeat-y;
+	background-size: 100%;
+}
+.footer {
+	padding: 40px 130px 55px 130px;
+	display: flex;
+	justify-content: space-around;
+}
+.about_us_1, .about_us_2 {
+	margin: 0 90px 0 0;
+	min-width: 110px;
+	h4 {
+		font-size: 22px;
+		font-family: $segoe;
+		color: #d8d7d8;
+		margin-bottom: 5px;
+		font-weight: 200;
+	}
+	ul li {
+		font-size: 13px;
+		font-family: arial;
+		color: #919091;
+		margin-top: 15px;
+		font-weight: 600;
+	}
+}
+.testimoanials {
+	flex-basis: 35%;
+	div {
+		display: flex;
+		button {
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background: none;
+			border: none;
+			margin: 4px;
+		}
+		button:hover {
+			opacity: 0.9;
+		}
+		button:focus {
+			opacity: 0.9;
+			outline: none;
+		}
+		button:active {
+			opacity: 0.8;
+		}
+	}
+	h4 {
+		font-size: 22px;
+		font-family: $segoe;
+		color: #d8d7d8;
+		margin: 0 30px 5px 0;
+		font-weight: 200;
+	}
+	p {
+		font-size: 13px;
+		font-family: arial;
+		color: #919091;
+		line-height: 2;
+		font-weight: 600;
+	}
+}
+.bottom_logo {
+	margin: 0 0 0 30px;
+	h1{
+	font-size: 118.5px;
+	font-style: italic;
+	color: #5d5a57;
+	cursor: pointer;
+	margin: 0 0 40px 0;
+	}
+	span {
+		font-size: 13px;
+		font-family: arial;
+		color: #fff;
+		
+	}
+}
